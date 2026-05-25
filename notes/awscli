@@ -1,0 +1,5 @@
+#Configurar perfil
+aws configure --profile terraform
+aws configure list
+
+aws s3 ls --profile terraform
